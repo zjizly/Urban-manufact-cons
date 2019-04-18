@@ -1,0 +1,83 @@
+import * as React from 'react';
+import './style.css';
+// import { Button, Icon } from 'antd';
+import { inject, observer } from 'mobx-react';
+import { --class--, Item } from '../../stores/&fs&';
+import { ColumnProps } from 'antd/lib/table';
+import { Utable } from '../../components/universal-table';
+import { SearchList } from '../../components/search-list';
+// import { Options } from '../../components/options';
+import { CreateBtn } from '../../components/create-button';
+
+interface Iprops {
+    &store&: --class--
+}
+
+const cols = ( page: &comp& ): ( ColumnProps< Item >[] ) => [
+    {
+        title: '序号',
+        dataIndex: 'index',
+        align: 'center',
+        key: "index"
+    }
+];
+
+@inject("&store&")
+@observer
+export default class &comp& extends React.Component< Iprops, {} > {
+
+    componentWillMount() {
+        const s = this.props.&store&;
+        s.getData();
+    }
+    // 新建
+    create=()=>{
+
+    }
+    render() {
+        const s = this.props.&store&;
+        return (
+            <div className="*page*-page">
+
+                <Utable 
+                columns={ cols(this) }
+                data={ s.list }
+                loading={ s.loading }
+                paging={ {
+                                current: s.paging.current,
+                                total: s.paging.total,
+                                size: s.paging.size,
+                                onChange: s.paging.onChange
+                            } }
+                buttons = {
+                    <CreateBtn click={this.create} />
+                    // <Options btns={[
+                    //                { txt: '新建', click: this.create }
+                    //            ]} />
+                }
+                search = {
+                     <SearchList search={s.search}
+                     // 下拉选项数据格式
+                       // SelectList={[
+                        //                {
+                        //                    Name: '用户状态',
+                        //                    Data: [
+                        //                        { label: '全部', value: '' },
+                        //                        { label: '激活', value: '0' },
+                        //                        { label: '冻结', value: '1' },
+                        //                    ],
+                        //                    check: '',
+                        //                },
+                       // ]}
+                       // other={
+                        //        <span>1111111</span>
+                        //    }
+                     />
+                }
+                />
+
+            </div>
+        )
+    }
+
+}

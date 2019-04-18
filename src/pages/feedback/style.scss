@@ -1,0 +1,30 @@
+
+@import "../../assets/css/share.scss";
+
+.feedback-page {
+
+    margin-top: 16px;
+    .ant-table-row{
+        td{
+            width: 20%;
+            white-space: pre-wrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+    }
+    .searchbar {
+        .ant-input {
+            width:268px;
+            height: 30px;
+            line-height: 30px;
+            margin-right: 20px;
+        }
+        .ant-btn {
+            width: 67px;
+            height: 30px;
+            line-height: 30px;
+            padding: 0;
+        }
+    }
+
+}

@@ -1,0 +1,15 @@
+@import "../../assets/css/share.scss";
+
+.card_for_utable {
+    padding: 14px;
+    .ant-table {
+        .ant-table-row.selected {
+            background-color: #b0faf0;
+        }
+        .ant-table-row.show {
+            background-color: #F2F2F2;
+        }
+    }
+    .ant-table-thead {
+        background-color: #F2F2F2; }
+}

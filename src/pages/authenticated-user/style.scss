@@ -1,0 +1,33 @@
+
+@import "../../assets/css/share.scss";
+
+.authenticated-user-page {
+    border-radius: 5px;
+    background-color: #fff;
+    margin-top: 16px;
+
+
+}
+
+.label {
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+    background-color: #ccc;
+    display: inline-block;
+    margin-right: 20px;
+    margin-bottom: 10px;
+
+    span {
+        float: right;
+        line-height: -20px;
+        margin-top: -14px;
+        color: black;
+        margin-right: -14px;
+        cursor: pointer;
+    }
+}

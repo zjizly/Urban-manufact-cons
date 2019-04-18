@@ -1,0 +1,61 @@
+$hMargin: 20px;
+$cardMinHeight: 70px;
+
+
+@mixin loading-single-line {
+  .ant-card-loading-content {
+    .ant-row:nth-child(n+2) {
+      display: none;
+    }
+  }
+}
+.button-group {
+    label{
+      color: #4E8CEE;
+      cursor: pointer;
+    }
+   .button-line{
+     margin: 0 5px;
+   }
+   .delete{
+     color: red;
+   }
+} 
+.page-title-color{
+  color: #a0a0a0;
+}
+.page-btn-content{
+  // margin-bottom: 20px;
+  .active{
+      border: 1px solid #3595a6;
+  }
+  button{
+      margin-right: 20px;
+  }
+}
+.text-right{
+  text-align: right;
+}
+.input_wrap{
+  margin-top: 16px;  
+  .ant-input-group-addon{
+      background-color: #fff;
+      border: none;
+      padding: 0;
+  }
+}
+.prompt{
+  color:red;
+  display: block;
+}
+textarea{
+  user-select: none;
+}
+.areas {
+  display: inline-block;
+  width: 100%;
+  .sct {
+      width: 100%;
+      margin-left: 4px;
+  }
+}

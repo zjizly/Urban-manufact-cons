@@ -1,0 +1,25 @@
+
+@import "../../assets/css/share.scss";
+
+.system-menus-page {
+    border-radius: 5px;
+    background-color: #fff;
+    margin-top: 16px;
+    .table{   
+        font-family: Arial;   
+        border-collapse: collapse;
+        width: 100%;
+        overflow: hidden;
+        text-align:center;
+        tr {
+            border: 1px solid #ccc;
+        }
+        td, th {
+            padding: 16px;
+        }
+    }
+
+    .operations {
+        margin-bottom: 16px;
+    }
+}

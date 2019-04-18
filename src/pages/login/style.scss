@@ -1,0 +1,42 @@
+.login-page{
+    background: url("/bg.jpg") no-repeat 0,0 no-repeat;
+    background-size: 100% 100%;
+}
+
+.login-page ._form{
+    width: 360px;
+    height: 280px;
+    border-radius: 5px;
+    padding: 40px;
+    text-align: center;
+    background-color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.login-page ._form ._title{
+    display: block;
+    position: absolute;
+    height: 1.5em;
+    font-size: 16px;
+    color: #fff;
+    top: -2em;
+    left: 0;
+    font-weight: bold;
+}
+
+.login-page .ant-form-item{
+    width: 100%;
+    margin-top: 16px;
+}
+
+.login-page .ant-form-item-control-wrapper{
+    width: 100%;
+}
+
+.login-page .ant-btn-primary{
+    width: 100%;
+    height: 42px;
+}

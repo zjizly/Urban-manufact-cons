@@ -1,0 +1,25 @@
+
+@import "../../assets/css/share.scss";
+
+.WithdrawalApp-page {
+
+  border-radius: 5px;
+  background-color: #fff;
+  margin-top: 16px;
+
+}
+.input_wrap{
+    margin-top: 16px;  
+    .ant-input-group-addon{
+        background-color: #fff;
+        border: none;
+        padding: 0;
+    }
+  }
+  .prompt{
+    color:red;
+    display: block;
+  }
+  textarea{
+    user-select: none;
+  }

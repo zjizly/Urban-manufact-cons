@@ -1,0 +1,72 @@
+
+@import "../../assets/css/share.scss";
+
+.audit-detail-page {
+    border-radius: 5px;
+    background-color: #fff;
+    margin-top: 16px;
+    
+    .basic_info{
+        margin-top: 32px;
+        .info_title{
+            width: 100%;
+            position: relative;
+            .info_number{
+                width: 44px;
+                height: 44px;
+                position: absolute;
+                left: -34px;
+                top: -14px;
+            }
+            h2{
+                margin-left: 8px;
+            }
+        }
+    }
+
+    .info_title {
+        padding-left: 20px;
+        color: #fff;
+        background-color: #1890FF;
+        width: 120px;
+        height: 30px;
+        line-height: 30px;
+        text-align: center;
+        padding-left: 0;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+    }
+
+    .ant-divider-horizontal {
+        margin-top: 0px;
+    }
+}
+
+.e_show_info{
+    margin-bottom: 16px;
+    margin-left: -68px;
+    label{
+        display: inline-block;
+        width: 144px;
+        text-align: right;
+        vertical-align: top;
+    }
+    .info_img_container{
+        width: 580px;
+        display: inline-block;
+        img{
+            width: 44px;
+            height: 44px;
+            margin-right: 8px;
+            margin-bottom: 8px;
+        }
+    }
+}
+
+.goods_info_label_e {
+    display: inline-block;
+    width: 144px;
+    text-align: right;
+    vertical-align: top;
+    margin-left: -68px;
+}

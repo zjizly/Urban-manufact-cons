@@ -1,0 +1,28 @@
+.search-bar-warpper{
+    width: 700px;
+    text-align: left;
+    input.ant-input, .ant-input-affix-wrapper{
+        width: 200px;
+    }
+    .search-bar-label{
+        display: inline-block;
+        padding: 0 6px;
+        text-align: center;
+    }
+    .ant-select-selection--single{
+        width: 112px;
+        border-radius: 0;
+        border-right: none;
+    }
+    .utable_buttons_wrap{
+        button{
+            margin: 0;
+        }
+    }
+    .ant-input{
+        border-radius: 0;
+    }
+    .search-bar-button{
+        border-radius: 0;
+    }
+}

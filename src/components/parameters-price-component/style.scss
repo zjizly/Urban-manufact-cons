@@ -1,0 +1,130 @@
+
+.switch-category-bar {
+    width: 100%;
+    background-color: #fff;
+    padding: 5px 15px;
+    button {
+        border-radius: 3px;
+        margin: 8px 6px 8px 0;
+        height: 30px;
+        line-height: 30px;
+    }
+}
+.goods-config-params-wapper{
+    min-height: 300px;
+    margin: 16px 0;
+    .config-params-left, .config-params-right{
+        overflow:scroll;
+        height: 300px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        padding: 8px;
+        h4{
+            text-align: center;
+            padding: 8px 16px;
+            border-bottom: 1px dotted #ccc;
+        }
+    }
+    .config-params-left{
+        width: 245px;
+        float: left;
+
+    }
+    .config-params-right{
+        margin-left: 200px;
+    }
+}
+.goods-config-options{
+    button{
+        margin-left: 10px;
+    }
+}
+.config-params-remark{
+    color: red;
+}
+ .goods-editor-warpper{
+     .ant-form-item-label{
+         vertical-align: top !important;
+     }
+ }
+
+
+ .search-bar-warpper{
+    width: 700px;
+    text-align: left;
+    input.ant-input, .ant-input-affix-wrapper{
+        width: 200px;
+    }
+    .search-bar-label{
+        display: inline-block;
+        padding: 0 6px;
+        text-align: center;
+    }
+    .ant-select-selection--single{
+        width: 112px;
+        border-radius: 0;
+    }
+    .utable_buttons_wrap{
+        button{
+            margin: 0;
+        }
+    }
+    .ant-input{
+        border-radius: 0;
+    }
+    .search-bar-button{
+        border-radius: 0;
+    }
+}
+
+
+.goods-config-param-modal{
+    .u_card_label{
+        width: 300px;
+        text-align: left;
+    }
+}
+
+
+.goods-config-param-modal{
+    .u_card_label{
+        width: 300px;
+        text-align: left;
+    }
+}
+.input_wrap{
+    margin:16px 16px 0 0;  
+    .ant-input-group-addon{
+        // background-color: #fff;
+        // border: none;
+        padding: 0;
+    }
+}
+table.mytable {
+    table-layout: fixed;
+    border: 1px solid #444;  
+    border-spacing: 0;    
+   }
+   
+   table.mytable tr {border-bottom: 1px solid #444}
+   
+   table.mytable td{
+     border-right: 1px solid #444;
+     border-bottom: 1px solid #444;
+     padding: 0;
+   }
+   
+   table.mytable tr td:last-child{ border-right: 0 }
+   table.mytable tr:last-child td{ border-bottom: 0 }
+   .table-body{
+       list-style: none;
+       padding: 0;
+       margin: 0;
+   }
+   .table-body li{
+    display: block;
+    display: inline-block;
+   }
+   .mytableTop{
+       width: calc(100% - 17px);
+   }

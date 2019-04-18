@@ -1,0 +1,24 @@
+{
+  "extends": ["tslint:recommended", "tslint-react", "tslint-config-prettier"],
+  "linterOptions": {
+    "exclude": [
+      "config/**/*.js",
+      "node_modules/**/*.ts",
+      "coverage/**/*",
+      "**/*.js"
+    ]
+  },
+  "rules": {
+    "interface-name": [true, "never-prefix"],
+    "no-empty-interface": false,
+    "no-empty": false,
+    "member-access": false,
+    "ordered-imports": false,
+    "object-literal-sort-keys": false,
+    "array-type": [true, "array"],
+    "max-classes-per-file": [true, 10],
+    "no-console": false,
+    "no-unused-expression": [true, "allow-fast-null-checks"],
+    "prefer-for-of": false
+  }
+}

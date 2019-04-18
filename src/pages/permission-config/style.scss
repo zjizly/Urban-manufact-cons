@@ -1,0 +1,63 @@
+
+@import "../../assets/css/share.scss";
+
+.permission-config-page {
+    border-radius: 5px;
+    background-color: #fff;
+    margin-top: 16px;
+    .permission-main {
+        width: 100%;
+        overflow: hidden;
+        padding: 8px;
+        padding-top: 0;
+        border: 1px solid #ccc;
+        height: 400px;
+        .menu {
+            border-right: 1px solid #ccc;
+            width: 200px;
+            padding: 4px;
+            overflow-y: scroll;
+            float: left;
+            height: 400px;
+            .main-header {
+                margin: 0;
+                padding: 0;
+                height: 44px;
+                line-height: 44px;
+                text-align: center;
+                border-bottom: 1px dotted #ccc;
+            }
+        }
+        .btns {
+            margin-left: 404px;
+            padding: 4px;
+            overflow-y: scroll;
+            height: 400px;
+            .main-header {
+                margin: 0;
+                padding: 0;
+                height: 44px;
+                line-height: 44px;
+                text-align: center;
+                border-bottom: 1px dotted #ccc;
+            }
+        }
+    }
+
+    .menu-item {
+        border-style: solid;
+        border-width: 1px;
+        border-radius: 5px;
+        padding: 4px;
+        margin: 8px 0;
+        font-size: 12px;
+        cursor: pointer;
+    }
+    .btn-item{
+        margin: 8px;
+        width: 8em;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+    }
+}

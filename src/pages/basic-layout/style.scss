@@ -1,0 +1,124 @@
+.basic-layout-page {
+  height: 100vh;
+  .logo {
+    height: 32px;
+    margin: 16px;
+    display: flex;
+    align-items: center;
+
+    > img {
+      $size: 32%;
+      width: $size;
+      margin-left: 20px;
+      margin-top: 10px;
+      //height: $size;
+    }
+  }
+
+  .ant-layout-sider {
+    height: auto;
+    overflow: auto; 
+  }
+  .ant-layout-sider::-webkit-scrollbar {
+    display: none;
+  }
+
+  .ant-layout-sider-children {
+    box-shadow: 2px 0 6px rgba(0, 21, 41, .35);
+  }
+
+  .ant-layout-header {
+    background: #252a2f;
+    box-shadow: 0 1px 4px rgba(0, 21, 41, .08);
+    padding: 0;
+    .trigger {
+      font-size: 18px;
+      line-height: 64px;
+      padding: 0 24px;
+      cursor: pointer;
+      transition: color .3s;
+      color: #ffffff;
+      &:hover {
+        color: #1890ff;
+      }
+    }
+  }
+
+  .ant-table-body {
+    th, td {
+      white-space: nowrap;
+      text-overflow: ellipsis;
+    }
+  }
+
+  @media screen and (max-device-width: 575px) {
+    .ant-layout-sider {
+      height: 100%;
+    }
+  }
+
+  .ant-layout-footer {
+    text-align: center;
+  }
+}
+
+.user_avatar_img{
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  float: right;
+  margin: 12px 56px 0 0;
+  cursor: pointer;
+}
+
+.user_setting_container{
+  list-style: none;
+  width: 100%;
+  padding: 0;
+  li{
+    width: 100%;
+    text-align: center;
+    height: 36px;
+    line-height: 36px;
+    cursor: pointer;
+  }
+}
+.user_setting_container li:hover{
+  background-color: aquamarine;
+}
+.li-left-tab{
+  list-style:none; 
+  padding:0; 
+  margin:0 30px 0 0; 
+  float:left;
+  color: #ffffff;
+  font-size: 13px;
+  font-weight: bold;
+  }
+  .clicked-tab{
+    color:#4EBFCD;
+  }
+.li-left-tab:hover
+{ 
+  cursor:pointer;
+}
+.header-tips{
+  padding: 14px 6px;
+  font-size: 12px;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.ant-layout-content {
+  /* margin-top: 20px; */
+  font-size: 12px;
+  border-radius: 5px;
+  background-color: #fff; }
+
+.content-urban {
+  /* margin: 14px 6px; */
+  font-size: 12px; }
+
+.loaded-content {
+  margin-bottom: 25px;
+ }

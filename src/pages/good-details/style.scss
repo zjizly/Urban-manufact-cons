@@ -1,0 +1,26 @@
+
+@import "../../assets/css/share.scss";
+
+.good-details-page {
+    border-radius: 5px;
+    background-color: #fff;
+    margin-top: 16px;
+
+    .info_title {
+        padding-left: 20px;
+        color: #fff;
+        background-color: #1890FF;
+        width: 120px;
+        height: 30px;
+        line-height: 30px;
+        text-align: center;
+        padding-left: 0;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+    }
+
+    .ant-divider-horizontal {
+        margin-top: 0px;
+    }
+
+}
